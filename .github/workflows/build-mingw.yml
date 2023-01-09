@@ -14,7 +14,7 @@ jobs:
       libraryName: libuv
       cmakeInstallationPath: libuv-installation
       tagName: v1.44.2
-      mingwTargetZip: libuv-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
+      mingwTargetZip: libuv-${{ github.ref_name }}-winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1.zip
     steps:
       - name: git clone
         shell: cmd
